@@ -6,8 +6,8 @@ function* myGen () {
 
 const generatorId = myGen();
 
-console.log(generatorId.next());
-console.log(generatorId.next());
-console.log(generatorId.next());
-console.log(generatorId.next());
-console.log(generatorId.next());
+console.log(generatorId.next().value);
+console.log(generatorId.next().value);
+console.log(generatorId.next().value);
+console.log(generatorId.next().value);
+console.log(generatorId.next().value);
